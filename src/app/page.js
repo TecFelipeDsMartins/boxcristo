@@ -1,29 +1,95 @@
 import Image from 'next/image';
 import { FaWhatsapp } from "react-icons/fa";
+import { Nokora } from 'next/font/google';
+
+const nokora = Nokora({ subsets: ['latin'], weight: '700' }); 
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-6" style={{ backgroundColor: '#F38120' }}>
-    <div className="flex flex-col items-center space-y-6">
-      <Image
-        src="/boxcristologo.png"
-        alt="Box Cristo Logo"
-        width={180}
-        height={37}
-        priority
-      />
-      <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-        <h1 className="text-2xl font-semibold mb-4">Site em Manutenção</h1>
-        <a
-          href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Encontrei%20a%20box%20cristo%20no%20google!%20Preciso%20de%20algumas%20informa%C3%A7%C3%B5es..."
-          className="inline-flex items-center justify-center px-3 py-2 text-xs font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500"
-        >
-          <FaWhatsapp className="text-2xl mr-2" />
-          Entre em contato pelo WhatsApp
-        </a>
+      <div className="max-w-4xl w-full bg-white p-6 shadow-lg">
+        <div className="text-center mb-4 lg:flex lg:items-start lg:justify-between">
+          <div className="lg:w-1/3 lg:pr-8">
+            <div className="flex items-center justify-start mb-4">
+              <Image 
+                src="/favicon.ico"
+                alt="CrossFit Logo"
+                width={100}
+                height={50}
+                className="rounded-lg"
+                priority
+              />
+            </div>
+            <h1 className={`${nokora.className} text-4xl font-bold text-black text-left lg:text-left`} >Transforme Seu Corpo com Cross</h1>
+            <p className="text-lg text-gray-700 my-4 text-left lg:text-left">
+              Estudos mostram que o Cross é uma das formas <strong className='text-black'>mais eficazes de perder</strong> peso e ganhar condicionamento físico.
+            </p>
+            <div className="bg-green-100 p-4 rounded-lg mb-6">
+              <p className="text-lg font-semibold text-green-800 text-left lg:text-left">
+                Aproveite uma <strong className='text-black'>aula experimental gratuita</strong> e descubra como o Cross pode mudar sua vida!
+              </p>
+            </div>
+          
+          </div>
+          <div className="lg:w-1/1 lg:ml">
+            <div className="hidden lg:block">
+              <Image
+                src="/antesdepois.jpg"
+                alt="CrossFit em Ação"
+                width={600}
+                height={400}
+                className="rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="lg:hidden text-center">
+          <Image
+            src="/antesdepois.jpg"
+            alt="CrossFit em Ação"
+            width={600}
+            height={400}
+            className="rounded-lg mb-4"
+          />
+          
+        </div>
+        <div className="lg:flex lg:items-center lg:justify-center mt-6">
+              <a
+                href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
+                className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0"
+              >
+                <FaWhatsapp className="text-lg mr-2" />
+                Entre em Contato pelo WhatsApp
+              </a>
+            </div>
       </div>
-    </div>
-  </main>
+      <div className="max-w-4xl w-full bg-white   ">
+        <Image
+          src="/crosslocal.jpg" // Substitua pelo caminho correto da sua imagem
+          alt="Segunda Seção"
+          layout="responsive"
+          width={1920}
+          height={1080}
+          className='mt-12'
+        />
+        <div className="relative max-w-4xl w-full bg-white p-6 rounded-lg text-center">
+          <h2 className="text-3xl font-bold text-gray-900">Ambiente Descontraído e Incentivador</h2>
+          <p className="text-lg text-gray-700 mt-4">
+            Venha experimentar um ambiente descontraído e incentivador, onde cada treino é uma oportunidade de superação e crescimento pessoal.
+          </p>
+        </div>
+        <div className="lg:flex lg:items-center lg:justify-center  p-6">
+              <a
+                href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
+                className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0"
+              >
+                <FaWhatsapp className="text-lg mr-2" />
+                Entre em Contato pelo WhatsApp
+              </a>
+            </div>
+      </div>
+      
+    </main>
   );
 }
 
