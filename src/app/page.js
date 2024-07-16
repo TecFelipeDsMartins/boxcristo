@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center min-h-screen p-6" style={{ backgroundColor: '#F38120' }}>
       <div className="max-w-4xl w-full bg-white p-6 shadow-lg">
         <div className="text-center mb-4 lg:flex lg:items-start lg:justify-between">
-          <div className="lg:w-1/3 lg:pr-8">
+          <div className="lg:w-1/2 lg:pr-8">
             <div className="flex items-center justify-start mb-4">
               <Image 
                 src="/favicon.ico"
@@ -25,7 +25,7 @@ export default function Home() {
             <p className="text-lg text-gray-700 my-4 text-left lg:text-left">
               Estudos mostram que o Cross é uma das formas <strong className='text-black'>mais eficazes de perder</strong> peso e ganhar condicionamento físico.
             </p>
-            <div className="bg-green-100 p-4 rounded-lg mb-6">
+            <div className="bg-green-100 p-4 rounded-lg mt-10">
               <p className="text-lg font-semibold text-green-800 text-left lg:text-left">
                 Aproveite uma <strong className='text-black'>aula experimental gratuita</strong> e descubra como o Cross pode mudar sua vida!
               </p>
@@ -37,8 +37,8 @@ export default function Home() {
               <Image
                 src="/antesdepois.jpg"
                 alt="CrossFit em Ação"
-                width={600}
-                height={400}
+                width={500}
+                height={300}
                 className="rounded-lg"
               />
             </div>
