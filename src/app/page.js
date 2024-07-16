@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { FaWhatsapp } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { Nokora } from 'next/font/google';
 
 const nokora = Nokora({ subsets: ['latin'], weight: '700' }); 
@@ -53,7 +54,7 @@ export default function Home() {
           />
           
         </div>
-        <div className="lg:flex lg:items-center lg:justify-center mt-6">
+        <div className="flex items-center justify-center  mt-6">
               <a
                 href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
                 className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0"
@@ -72,21 +73,79 @@ export default function Home() {
           height={1080}
           className='mt-12'
         />
+        <div className='max-w-screen-lg mx-auto'>
+          <div class="grid lg:grid-cols-6 grid-cols-3">
+          <Image
+            src="/image1.jpeg" // Substitua pelo caminho correto da sua imagem
+            alt="Segunda Seção"
+            layout="reponsive"
+            width={190}
+            height={108}
+            className=''
+          />
+          <Image
+            src="/image2.jpeg" // Substitua pelo caminho correto da sua imagem
+            alt="Segunda Seção"
+            layout="responsive"
+            width={192}
+            height={108}
+            className=''
+          />
+          <Image
+            src="/image3.jpeg" // Substitua pelo caminho correto da sua imagem
+            alt="Segunda Seção"
+            layout="cover"
+            width={192}
+            height={108}
+            className=''
+          />
+          <Image
+            src="/image4.jpeg" // Substitua pelo caminho correto da sua imagem
+            alt="Segunda Seção"
+            layout="cover"
+            width={192}
+            height={108}
+            className=''
+          />
+          <Image
+            src="/image5.jpeg" // Substitua pelo caminho correto da sua imagem
+            alt="Segunda Seção"
+            layout="cover"
+            width={192}
+            height={108}
+            className=''
+          />
+          <Image
+            src="/image6.jpeg" // Substitua pelo caminho correto da sua imagem
+            alt="Segunda Seção"
+            layout="cover"
+            width={192}
+            height={108}
+            className=''
+          />
+          </div>
+        </div>
+       
         <div className="relative max-w-4xl w-full bg-white p-6 rounded-lg text-center">
           <h2 className="text-3xl font-bold text-gray-900">Ambiente Descontraído e Incentivador</h2>
           <p className="text-lg text-gray-700 mt-4">
             Venha experimentar um ambiente descontraído e incentivador, onde cada treino é uma oportunidade de superação e crescimento pessoal.
           </p>
-        </div>
-        <div className="lg:flex lg:items-center lg:justify-center  p-6">
+          <div className="flex items-center justify-center mt-6">
               <a
                 href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
-                className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0"
+                className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0 text-left"
               >
                 <FaWhatsapp className="text-lg mr-2" />
                 Entre em Contato pelo WhatsApp
               </a>
-            </div>
+        </div>
+        </div>
+        
+      </div>
+      <div className="flex mt-6">
+       <FaMapMarkerAlt className="text-lg mr-2"/>
+        <p>Rua Zeca Neto 133 - Cristo Redentor/Porto Algre</p> 
       </div>
       
     </main>
