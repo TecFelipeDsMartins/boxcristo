@@ -141,7 +141,14 @@ export default function Home() {
               </a>
         </div>
         </div>
-        
+        <Image
+          src="/mapa.png" // Substitua pelo caminho correto da sua imagem
+          alt="Segunda Seção"
+          layout="responsive"
+          width={1920}
+          height={1080}
+          className='mt-12'
+        />
       </div>
       <div className="flex mt-6">
        <FaMapMarkerAlt className="text-lg mr-2"/>
