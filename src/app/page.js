@@ -35,7 +35,7 @@ export default function Home() {
           <div className="lg:w-1/1 lg:ml">
             <div className="hidden lg:block">
               <Image
-                src="/antesdepois.png"
+                src="/antesdepois.jpg"
                 alt="CrossFit em Ação"
                 width={500}
                 height={300}
@@ -142,9 +142,8 @@ export default function Home() {
         </div>
         </div>
         <Image
-          src="/mapa.png" // Substitua pelo caminho correto da sua imagem
+          src="/mapa.jpg" // Substitua pelo caminho correto da sua imagem
           alt="Segunda Seção"
-          layout="responsive"
           width={1920}
           height={1080}
           className='mt-12'
