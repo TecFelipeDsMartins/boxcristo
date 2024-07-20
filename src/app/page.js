@@ -35,7 +35,7 @@ export default function Home() {
           <div className="lg:w-1/1 lg:ml">
             <div className="hidden lg:block">
               <Image
-                src="/antesdepois.jpg"
+                src="/antesdepois.png"
                 alt="CrossFit em Ação"
                 width={500}
                 height={300}
