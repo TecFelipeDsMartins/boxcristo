@@ -21,13 +21,13 @@ export default function Home() {
                 priority
               />
             </div>
-            <h1 className={`${nokora.className} text-4xl font-bold text-black text-left lg:text-left`} >Transforme Seu Corpo com Cross</h1>
+            <h1 className={`${nokora.className} text-4xl text-black text-left lg:text-left`} >Transforme Seu Corpo com Cross:<strong>Primeira Aula é Grátis!</strong></h1>
             <p className="text-lg text-gray-700 my-4 text-left lg:text-left">
-              Estudos mostram que o Cross é uma das formas <strong className='text-black'>mais eficazes de perder</strong> peso e ganhar condicionamento físico.
+            Estudos comprovam: <strong className='text-black'>Cross é altamente eficaz para emagrecimento</strong> e ganho de condicionamento físico.
             </p>
             <div className="bg-green-100 p-4 rounded-lg mt-10">
               <p className="text-lg font-semibold text-green-800 text-left lg:text-left">
-                Aproveite uma <strong className='text-black'>aula experimental gratuita</strong> e descubra como o Cross pode mudar sua vida!
+              Agende sua aula gratuita agora e veja como o CrossFit pode transformar sua vida!
               </p>
             </div>
           
@@ -129,7 +129,7 @@ export default function Home() {
         <div className="relative max-w-4xl w-full bg-white p-6 rounded-lg text-center">
           <h2 className="text-3xl font-bold text-gray-900">Ambiente Descontraído e Incentivador</h2>
           <p className="text-lg text-gray-700 mt-4">
-            Venha experimentar um ambiente descontraído e incentivador, onde cada treino é uma oportunidade de superação e crescimento pessoal.
+          Experimente um ambiente motivador e acolhedor, onde cada treino é uma chance de superação e crescimento pessoal.
           </p>
           <div className="flex items-center justify-center mt-6">
               <a
@@ -137,7 +137,7 @@ export default function Home() {
                 className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0 text-left"
               >
                 <FaWhatsapp className="text-lg mr-2" />
-                Entre em Contato pelo WhatsApp
+                Converse Agora no WhatsApp
               </a>
         </div>
         </div>
