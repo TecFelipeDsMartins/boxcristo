@@ -56,7 +56,7 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-center  mt-6">
               <a
-                href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
+                href="https://wa.me/5551993554921?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
                 className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0"
               >
                 <FaWhatsapp className="text-lg mr-2" />
@@ -133,7 +133,7 @@ export default function Home() {
           </p>
           <div className="flex items-center justify-center mt-6">
               <a
-                href="https://wa.me/5551993312020?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
+                href="https://wa.me/5551993554921?text=Ol%C3%A1.%20Estou%20interessado(a)%20na%20aula%20experimental%20gratuita%20de%20CrossFit!"
                 className="inline-flex items-center justify-center lg:justify-start px-6 py-3 text-sm font-semibold text-white bg-[#25D366] rounded-lg shadow hover:bg-green-500 mb-4 lg:mb-0 text-left"
               >
                 <FaWhatsapp className="text-lg mr-2" />
